@@ -1,0 +1,17 @@
+{% extends "./layouts/base.twig" %}
+
+{% block head %}
+	{{ parent() }}
+	
+{% endblock %}
+{% block title %}Home{% endblock %}
+{% block heading %}Homepage{% endblock %}
+{% block intro %}Welcome to my home page.{% endblock %}
+{% block content %}
+
+<p>{{posts[1]['title']}}</p>
+
+
+
+	
+{% endblock %}
